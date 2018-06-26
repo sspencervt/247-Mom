@@ -1,6 +1,9 @@
 body {
     margin: 0;
 }
+
+/*HEADER SECTION*/
+
 header {
     display: flex;
     flex-direction: row;
@@ -14,6 +17,9 @@ header {
 h3 {
     padding-right: 10px;
 }
+
+/* LOGO AND SUBSCRIBE SECTION*/
+
 #logo {
     display: flex;
     flex-direction: row;
@@ -23,12 +29,20 @@ h3 {
     padding-top: 0px;
 }
 #subscribe {
+    background-image: url("alarmclock.png");
     margin: 5px 8px;
     padding: 0px 6px 16px 80px;
-    background-color: pink;
+    background-color: rgb(247, 148, 164);
     display: flex;
     flex-direction: column;
 }
 #subscribeinput {
     display: flex;
+}
+
+/*  NAVIGATION SECTION */
+
+#nav {
+    display: flex;
+    flex-direction: row;
 }
